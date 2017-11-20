@@ -3,9 +3,9 @@
 ## Usage
 
 ### Requirements
-NPM (Node package manager)
-`npm install` to install dependencies
-`npm install --global gulp-cli` to allow gulp commands
+- NPM (Node package manager)
+- `npm install` to install dependencies
+- `npm install --global gulp-cli` to allow gulp commands
 
 ### Basic Usage
 
