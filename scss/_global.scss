@@ -1,6 +1,8 @@
-// Global styling for this template
+// Global styling
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 
@@ -26,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
