@@ -548,8 +548,8 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  margin-left: 50%;
+
 }
 
 .img-thumbnail {

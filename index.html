@@ -29,7 +29,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="topNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="./img/logo_nav.png" class="navbar-img">
+        <img src="./img/logo_nav.png" class="navbar-img grow">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            <a class="nav-link js-scroll-trigger" href="#projects">Sponsors</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#events">Events</a>
@@ -58,11 +58,11 @@
   <!-- top section header -->
   <header class="masthead">
     <div class="container">
-      <img class="img-fluid" src="img/logo_nav.png" alt="">
+      <img class="img-fluid grow" src="img/logo_nav_white.png" alt="">
       <div class="intro-text">
         <span class="name">Brown Data Science</span>
         <hr>
-        <span class="subName">Brown University Data Science Club</span>
+        <span class="subName"></span>
       </div>
     </div>
   </header>
@@ -96,69 +96,32 @@
   <!-- projects section -->
   <section id="projects" class="success">
     <div class="container">
-      <h2 class="text-center">Portfolio</h2>
-      <hr class="star-light">
+      <h2 class="text-center">Sponsors</h2>
+      <hr>
       <div class="row">
         <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
+          <a class="portfolio-link" href="http://www.goldmansachs.com/">
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+            <img class="sponsor-logo grow" src="img/goldman.png" alt="">
           </a>
         </div>
         <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+          <a class="portfolio-link" href="http://www.google.com/" >
             <div class="caption">
               <div class="caption-content">
                 <i class="fa fa-search-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="sponsor-logo grow" src="img/google.png" alt="">
           </a>
         </div>
-        <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item">
-          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-            <div class="caption">
-              <div class="caption-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </a>
-        </div>
+
+        <!-- data-toggle="modal" for portfolio-link to open modal -->
+        
       </div>
     </div>
   </section>
@@ -168,6 +131,12 @@
     <div class="container">
       <h2 class="text-center">Join BDS!</h2>
       <hr class="star-primary">
+      <br>
+      <div class="intro-text">
+        <p class="subName text-center">Please email the following information to joinbds@brown.edu:</p>
+        
+      </div>
+      <br>
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
@@ -203,9 +172,9 @@
             </div>
             <br>
             <div id="success"></div>
-            <div class="form-group">
+            <!-- <div class="form-group">
               <button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
-            </div>
+            </div> -->
           </form>
         </div>
       </div>
@@ -226,35 +195,35 @@
             <h3>Social Media</h3>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a class="btn-social btn-outline" href="#">
+                <a class="btn-social" href="#">
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-social btn-outline" href="#">
+                <a class="btn-social" href="#">
                   <i class="fa fa-fw fa-google-plus"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-social btn-outline" href="#">
+                <a class="btn-social" href="#">
                   <i class="fa fa-fw fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-social btn-outline" href="#">
+                <a class="btn-social" href="#">
                   <i class="fa fa-fw fa-linkedin"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a class="btn-social btn-outline" href="#">
+                <a class="btn-social" href="#">
                   <i class="fa fa-fw fa-dribbble"></i>
                 </a>
               </li>
             </ul>
           </div>
           <div class="footer-col col-md-4">
-            <h3>TODO  </h3>
-            <p>TODO
+            <h3>Contact Us  </h3>
+            <p> Currently unavailable
              </p>
           </div>
         </div>
@@ -291,26 +260,13 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <h2>Project Title</h2>
+                <h2>Goldman Sachs</h2>
                 <hr class="star-primary">
-                <img class="img-fluid img-centered" src="img/portfolio/cabin.png" alt="">
-                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                  <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the
-                  entire set with 146 icons for only $12!</p>
+                <img class="img-fluid img-centered" src="img/goldman.png" alt="">
                 <ul class="list-inline item-details">
-                  <li>Client:
+                  <li>Sponsorship Level:
                     <strong>
-                      <a href="http://startbootstrap.com">Start Bootstrap</a>
-                    </strong>
-                  </li>
-                  <li>Date:
-                    <strong>
-                      <a href="http://startbootstrap.com">April 2014</a>
-                    </strong>
-                  </li>
-                  <li>Service:
-                    <strong>
-                      <a href="http://startbootstrap.com">Web Development</a>
+                      TBD
                     </strong>
                   </li>
                 </ul>

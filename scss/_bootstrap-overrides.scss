@@ -3,15 +3,15 @@
   font-size: 20px;
   margin-top: 15px;
   transition: all 0.3s ease-in-out;
-  color: white;
-  border: solid 2px white;
+  color: $theme-primary;
+  border: solid 2px $theme-primary;
   background: transparent;
   &.active,
   &:active,
   &:focus,
   &:hover {
     color: $theme-success;
-    border: solid 2px white;
+    border: solid 2px $theme-success;
     background: white;
   }
 }
